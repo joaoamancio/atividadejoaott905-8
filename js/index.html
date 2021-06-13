@@ -11,24 +11,34 @@
         <h2>Books</h2>
         <p id="json"> </p>
 
-        <h2>Formulário Básico (post)</h2>
-        <form id="postForm">
-        <label for="mensagem">Mensagem:</label>
-        <input type="text" id ="mensagem" name="mensagem"/>
-        <button type="submit" onclick="return submitPost()">Submit</button>
-        </form>
-
-        <h2>Formulário Básico (Put)</h2>
-        <form id="putForm">
-        <label>Id:<input type="text" name="id"/></label>
-        <label>Mensagem:<input type="text" name="mensagem"/></label>
-         <button type="submit" onclick="return submitPut()">Submit</button>
-         </form>
-
-         <h2>Formulário Básico (Delete)</h2>
-         <form id="deleteForm">
-         <label>Id:<input type="text" name="id"/></label>        
-          <button type="submit" onclick="return submitDelete()">Submit</button>
-          </form>
+        <h2>Formulário para inserir um livro</h2>
+            <form id="postForm">
+                <label for="title">Insira o título do livro</label></br>
+                <input type="text" id="title" name="title"/></br>
+                <label for="author">Insira o autor do livro</label></br>
+                <input type="text" id="author" name="author"/></br>
+                <label for="originalyear">Insira o ano de publicação do livro</label></br>
+                <input type="number" id="originalyear" name="originalyear"/></br>
+                <button type="submit" onclick="return submitPost()">Submit</button>
+            </form>
+            <h2>Formulário para atualizar um livro</h2>
+            <form id="putForm">
+                <label for="id">Selecione o livro a ser atualizado</label></br>
+                <input type="number" id="id" name="id"/></br>
+                <label for="title">Insira o novo título do livro</label></br>
+                <input type="text" id="title" name="title"/></br>
+                <label for="author">Insira o novo autor do livro</label></br>
+                <input type="text" id="author" name="author"/></br>
+                <label for="originalyear">Insira o novo ano de publicação</label></br>
+                <input type="number" id="originalyear" name="originalyear"/></br>
+                <button type="submit" onclick="return submitPut()">Submit</button>
+            </form>
+            <h2>Formulário para deletar um livro</h2>
+            <form id="deleteForm">
+                <label for="id">Selecione o livro a ser deletado</label></br>
+                <input type="number" id="id" name="id"></br>
+                <button type="submit" onclick="return submitDelete()">Submit</button>
+            </form>
+            
     </body>
 </html>
