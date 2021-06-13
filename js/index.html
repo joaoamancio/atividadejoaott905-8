@@ -9,9 +9,10 @@
     </head>
     <body>
         <h2>Books</h2>
-        <p id="json"> </p>
-
-        <h2>Formulário para inserir um livro</h2>
+        <div class="div_maior">
+            <h2>Clique aqui para ver o JSON</h2>
+                <a href="javascript:callFetchWithGet()">Get</a>
+            <h2>Formulário para inserir um livro</h2>
             <form id="postForm">
                 <label for="title">Insira o título do livro</label></br>
                 <input type="text" id="title" name="title"/></br>
@@ -39,6 +40,12 @@
                 <input type="number" id="id" name="id"></br>
                 <button type="submit" onclick="return submitDelete()">Submit</button>
             </form>
+            
+        </div>
+        <div class="json">
+            <h2>Json Text</h2>
+            <section id="json"></section>
+        </div
             
     </body>
 </html>
