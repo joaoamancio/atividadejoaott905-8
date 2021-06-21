@@ -1,4 +1,4 @@
-let url = "https://atividadesetejoaott905.herokuapp.com/database/"
+let url = "https://atividadesetejoaott905.herokuapp.com/books/"
 
 async function callFetchWithGet() {
     let headers = new Headers();
