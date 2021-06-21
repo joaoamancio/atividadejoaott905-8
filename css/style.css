@@ -35,8 +35,8 @@ button {
 .json {
     display:inline-block;
     float:right;
-    width:70%;
-    margin-right:30%;
+    width:75%;
+    margin-right:0.7%;
     border:solid black 1px;
     letter-spacing: 2px;
     padding:20px;
