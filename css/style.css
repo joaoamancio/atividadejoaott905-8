@@ -41,6 +41,7 @@ button {
     letter-spacing: 2px;
     padding:20px;
     font-family: arial;
+    text-align: justify;
 }
 section {
     font-size:large;
